@@ -1,0 +1,150 @@
+/* Resetting default margin and padding */
+body, h1, nav, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background color and font for the body */
+body {
+    background-color: #9fd8df; /* Light blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the header */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White */
+}
+
+/* Styling the navigation links */
+nav {
+    background-color: #004d99; /* Dark blue */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff; /* White */
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    background-color: #0066cc; /* Light blue on hover */
+}
+
+/* Styling the current link */
+nav a.current {
+    font-weight: bold;
+}
+
+/* Styling the main content area */
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a slight shadow */
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+  .image {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .accordion {
+    background-color: #7FDFF0; /* Light Blue */
+    color: #fff; /* White */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #4FA2D9; /* Darker Blue */
+}
+.panel {
+    padding: 0 18px;
+    background-color: #2f457c; 
+    display: none;
+    overflow: hidden;
+}
+
+/* ------------------------------- */
+
+
+.Reservations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #7ccaff; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 6px;
+    width: 170%;
+}
+
+
+
+.box.b select,
+.box.b input[type="text"] {
+    width: 18%;
+}
+
+.box.g label {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .box.g label input {
+    margin-right: 10px; 
+  }
+  .fa-solid{
+color: #379ccb;
+  }
+  
+
+

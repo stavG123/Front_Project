@@ -1,0 +1,46 @@
+{
+    "rooms": [
+        {
+            "name": "Stav Gorobets"
+        },
+        {
+            "name": "Tarik gusic"
+           
+        },
+        {
+            "name": "Calabe Dressel"
+        }
+    ],
+    "days": [
+        {
+            "name": "Sunday",
+            "code": "S",
+            "desc": "Not fun"
+        },
+        {
+            "name": "Monday",
+            "code": "M",
+            "desc": "Not fun at all"
+        },
+        {
+            "name": "Tuesday",
+            "code": "TU",
+            "desc": "Zero fun"
+        }
+    ],
+    "times": [
+        {
+            "time": "1:00 PM",
+            "time2": "one PM"
+        },
+        {
+            "time": "2:00 PM",
+            "time2": "two PM"
+           
+        },
+        {
+            "time": "3:00 PM",
+            "time2": "three PM"
+        }
+    ]
+}

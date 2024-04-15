@@ -1,0 +1,66 @@
+[
+    {
+      "coach_name": "Michel Phelps",
+      "coach_stroke": "Butterfly",
+      "coach_number": "484-545-1264",
+      "coach_age": 33,
+      "coach_photo": "mp.jpeg",
+      "coach_lesson_price": 12
+    },
+    {
+      "coach_name": "Stav Gorobets",
+      "coach_stroke": "BreastStroke",
+      "coach_number": "483-565-3364",
+      "coach_age": 23,
+      "coach_photo": "stav.png",
+      "coach_lesson_price": 22
+    },
+    {
+      "coach_name": "Thomas Blum",
+      "coach_stroke": "Butterfly",
+      "coach_number": "215-951-1139",
+      "coach_age": 37,
+      "coach_photo": "blum.png",
+      "coach_lesson_price": 40
+    },
+    {
+      "coach_name": "Kety ledecky",
+      "coach_stroke": "Free",
+      "coach_number": "434-225-3364",
+      "coach_age": 63,
+      "coach_photo": "katie.jpeg",
+      "coach_lesson_price": 37
+    },
+    {
+      "coach_name": "Ryan Merhpy",
+      "coach_stroke": "BackStroke",
+      "coach_number": "484-555-1264",
+      "coach_age": 29,
+      "coach_photo": "Ryan.jpg",
+      "coach_lesson_price": 45
+    },
+    {
+      "coach_name": "Tarik Gusic",
+      "coach_stroke": "BackStroke",
+      "coach_number": "484-545-2222",
+      "coach_age": 22,
+      "coach_photo": "tarik.jpeg",
+      "coach_lesson_price": 32
+    },
+    {
+      "coach_name": "Kerry Smith",
+      "coach_stroke": "Free",
+      "coach_number": "444-222-1222",
+      "coach_age": 30,
+      "coach_photo": "kerry.jpeg",
+      "coach_lesson_price": 44
+    },
+    {
+      "coach_name": "micheal andrew",
+      "coach_stroke": " Free",
+      "coach_number": "484-545-2264",
+      "coach_age": 32,
+      "coach_photo": "andrew.jpeg",
+      "coach_lesson_price": 12
+    }
+  ]

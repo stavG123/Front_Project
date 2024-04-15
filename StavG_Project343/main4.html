@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stav Gorobets Project</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="icon" type="image/x-icon" href="Photos/swimmingiconpng.png">
+    <link rel="stylesheet" href="CSS/html4.css">
+</head>
+
+<body>
+    <h1>Swimming Website</h1>
+    <nav>
+        <a href="main.html">Register Lesson</a>
+        <a href="main2.html">Know Your Coach</a>
+        <a href="main3.html">More about Coach (React)</a>
+        <a href="main4.html">Swimming (Vue)</a>
+    </nav>
+    <!-- Main content -->
+    <div class="wrapper">
+        <div id="vue_radio">
+            <!-- Choose your coach section -->
+            <h2>Choose your coach</h2>
+            <span v-for="x in rooms">
+                <input type="radio" :id="x.name" name="x" :value="x" v-model="user_room" />
+                <label :for="x.name">{{x.name}}</label>
+                <br />
+            </span>
+            <br />
+            </span>
+            <!-- Choose day section -->
+            <div id="vue_radio">
+                <h2>Day</h2>
+                <span v-for="y in days">
+                    <input type="radio" :id="y.name" name="y" :value="y" v-model="user_day" />
+                    <label :for="y.name">{{y.name}}</label>
+                    <br />
+                </span>
+                <br />
+                </span>
+
+
+                <!-- Choose time section -->
+                <div id="vue_radio">
+                    <h2>Time</h2>
+                    <span v-for="g in times">
+                        <input type="radio" :id="g.time" name="g" :value="g" v-model="user_time" />
+                        <label :for="g.time">{{g.time}}</label>
+                        <br />
+                    </span>
+                    <br />
+                    </span>
+
+                    <div className="box">
+                        <input type="button" value="Make Reservation" v-on:click="makeGuess" />
+                    </div>
+                    <!-- Display user choices -->
+                    <h2>User choices:</h2>
+                    <ol>
+                        <li v-for="x in user_reservation">{{x}}</li>
+                    </ol>
+
+
+                </div>
+            </div>
+        </div>
+        <script src="js/main4.js"></script>
+</body>
+
+</html>

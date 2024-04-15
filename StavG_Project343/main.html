@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Stav Gorobets Project -->
+    <title>Stav Gorobets Project</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Stav Gorobets">
+    <meta name="description" content="Swimming website">
+    <meta name="keywords" content="HTML, CSS, JavaScript,jason,Vue,React">
+    <link rel="icon" type="image/x-icon" href="Photos/swimmingiconpng.png">
+    <link rel="stylesheet" href="CSS/html1.css">
+    <script src="https://kit.fontawesome.com/be831947af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- chossing which html to go -->
+    <h1>Swimming Website</h1>
+    <nav>
+        <a href="main.html">Register Lesson</a>
+        <a href="main2.html"> Know Your Coach</a>
+        <a href="main3.html">More about Coach (React)</a>
+        <a href="main4.html">Swimming (Vue)</a>
+    </nav>
+    <!-- the photo and info about me-->
+    <div id="divRoomReserve" class="wrapper">
+        <i class="fa-solid fa-person-swimming"></i>
+        <div class="container">
+            <img src="Photos/stav.png" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Stav Gorobets</div>
+            </div>
+            <a>Hover over the image to see the effect.</a>
+
+        </div>
+        <h2>Stav Gorobets- La Salle Univeristy </h2>
+        <a>Hi, my name is Stav Gorobrets. I'm creating a website about my favorite spot: swimming. Enjoy!</a>
+        <br>
+        <br>
+        <a>Before we start a little info about me,</a>
+        <button class="accordion">At what age did Stav start to swim?</button>
+        <div class="panel">
+            <p>6</p>
+        </div>
+
+        <button class="accordion">Stav Favorite Stroke</button>
+        <div class="panel">
+            <p>BreastStroke </p>
+        </div>
+
+        <button class="accordion">Stav Race</button>
+        <div class="panel">
+            <p>50M BreastStroke</p>
+        </div>
+
+        <h3 style="color: rgb(0, 200, 255);">Fill Your info to make a swimming lesson with Stav</h3>
+        <!-- The registreation-->
+        <div class="Reservations">
+            <div class="box a">Full Name:</div>
+            <div class="box b"><input type="text" id="txtName" /></div>
+            <div class="box c">Swimming lesson Place:</div>
+            <div class="box d"><select name="room" id="room-select">
+                    <option value="La Salle Univeristy">LSU Univeristy</option>
+                    <option value="Villanova Univeristy">VLU Univeristy </option>
+                    <option value="Havard Univeristy">HVU Univeristy </option>
+                    <option value="NY Univeristy">NYU Univeristy </option>
+                    <option value="Monmouth Univeristy">MUO Univeristy </option>
+                </select></div>
+            <div class="box e">Day & time</div>
+            <div class="box f">
+                <br />
+                <br>
+                <label><input id="Radio1" name="R1" type="radio" value="Monday" checked />Monday</label> <br />
+                <label><input id="Radio2" name="R1" type="radio" value="Tuesday" />Tuesday</label><br />
+                <label><input id="Radio3" name="R1" type="radio" value="Wednesday" />Wednesday</label><br />
+                <label><input id="Radio4" name="R1" type="radio" value="Thursday" />Thursday</label><br />
+                <label><input id="Radio5" name="R1" type="radio" value="Friday" />Friday</label><br />
+            </div>
+            <div class="box g">
+                <br />
+                <label><input id="Radio6" name="R2" type="radio" value="6:00AM"
+                        checked /><span>6:00AM</span></label><br />
+                <label><input id="Radio7" name="R2" type="radio" value="7:00AM" /><span>7:00AM</span></label><br />
+                <label><input id="Radio8" name="R2" type="radio" value="8:00AM" /><span>8:00AM</span></label><br />
+                <label><input id="Radio9" name="R2" type="radio" value="9:00AM" /><span>9:00AM</span></label><br />
+                <label><input id="Radio10" name="R2" type="radio" value="10:00AM" /><span>10:00AM</span></label><br />
+                <label><input id="Radio11" name="R2" type="radio" value="11:00AM" /><span>11:00AM</span></label><br />
+            </div>
+
+            <br />
+            <div class="box">Equipment you need:
+
+                <input id="Checkbox1" type="checkbox" name="chkMovie[]" value="Fins" /><label
+                    for="Checkbox1">Fins</label><br />
+                <input id="Checkbox2" type="checkbox" name="chkMovie[]" value="paddels" /><label
+                    for="Checkbox2">paddels</label><br />
+                <input id="Checkbox3" type="checkbox" name="chkMovie[]" value="swimming board" /><label
+                    for="Checkbox3">swimming board</label><br />
+                <input id="Checkbox4" type="checkbox" name="chkMovie[]" value="goggles" /><label
+                    for="Checkbox4">goggles</label><br />
+            </div>
+
+
+            <div class="box h">
+                <button id="btnClick1">Make Reservation</button>
+            </div>
+            <div class="box i">
+                Reservations: <br />
+                <textarea id="taSchedule" rows=7 cols=70 readonly></textarea>
+            </div>
+            <button id="clearBtn">Clear</button>
+        </div>
+
+
+
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
